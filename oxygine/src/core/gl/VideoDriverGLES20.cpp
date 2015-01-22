@@ -11,7 +11,7 @@
 #include "../system_data.h"
 
 #if OXYGINE_SDL
-#include "SDL_config.h"
+#include "SDL2/SDL_config.h"
 #endif
 
 

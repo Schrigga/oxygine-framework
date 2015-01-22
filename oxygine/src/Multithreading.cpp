@@ -10,7 +10,7 @@
 #endif
 
 #ifdef OXYGINE_SDL
-#include "SDL_thread.h"
+#include "SDL2/SDL_thread.h"
 #endif
 
 namespace oxygine

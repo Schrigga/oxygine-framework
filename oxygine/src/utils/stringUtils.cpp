@@ -8,7 +8,7 @@
 #endif
 
 #ifdef OXYGINE_SDL
-#include "SDL_stdinc.h"
+#include "SDL2/SDL_stdinc.h"
 #endif
 
 namespace oxygine

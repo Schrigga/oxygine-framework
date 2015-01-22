@@ -4,8 +4,8 @@
 #include "Input.h"
 
 #ifndef __S3E__
-#include "SDL_keyboard.h"
-#include "SDL_events.h"
+#include "SDL2/SDL_keyboard.h"
+#include "SDL2/SDL_events.h"
 #endif
 
 namespace oxygine

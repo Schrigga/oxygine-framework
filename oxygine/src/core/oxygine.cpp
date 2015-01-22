@@ -43,9 +43,9 @@
 #ifdef EMSCRIPTEN
 #include <sys/time.h>
 #include <emscripten.h>
-#include <SDL.h>
-#include <SDL_compat.h>
-#include <SDL_events.h>
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_compat.h>
+#include <SDL2/SDL_events.h>
 #elif __ANDROID__
 #include "core/android/jniUtils.h"
 #endif
@@ -55,13 +55,13 @@
 
 extern "C"
 {
-#include "SDL.h"
-#include "SDL_video.h"
+#include "SDL2/SDL.h"
+#include "SDL2/SDL_video.h"
 };
 
 #include <stdio.h>
-#include "SDL_syswm.h"
-#include "SDL_timer.h"
+#include "SDL2/SDL_syswm.h"
+#include "SDL2/SDL_timer.h"
 
 #endif
 

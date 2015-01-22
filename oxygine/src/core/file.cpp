@@ -13,12 +13,12 @@
     #include "ios/ios.h"
 #elif EMSCRIPTEN
 #else
-	#include "SDL_system.h"
+	#include "SDL2/SDL_system.h"
 #endif
 
  
 #ifdef OXYGINE_SDL
-#  include "SDL_filesystem.h"
+#  include "SDL2/SDL_filesystem.h"
 #elif WIN32
 #  include <shlwapi.h>
 #  include <shlobj.h>

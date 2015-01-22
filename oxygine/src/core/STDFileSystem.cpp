@@ -39,7 +39,7 @@
 
 	#include <sys/stat.h>
 	#include <sys/types.h>
-	#include "SDL_rwops.h"	
+	#include "SDL2/SDL_rwops.h"	
 
 	typedef SDL_RWops oxHandle;
 	//todo remove s3e

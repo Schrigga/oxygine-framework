@@ -8,7 +8,7 @@
 #include <sstream>
 
 #ifdef OXYGINE_SDL
-#include "SDL.h"
+#include "SDL2/SDL.h"
 #endif
 
 namespace oxygine
